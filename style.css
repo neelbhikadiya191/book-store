@@ -1,0 +1,145 @@
+/* Neel Bhikadiya = 8885049
+Harshil Lunagariya = 8968745 */
+
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: rgb(80, 78, 172); /* Updated header color */
+  color: white;
+  /* text-align: center; */
+  padding: 0.8em; /* Reduced header height */
+}
+
+nav {
+  background-color: #333; /* Navigation bar color */
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 16px; /* Adjusted padding */
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+header img {
+  width: 100px;
+  height: auto; /* Maintain aspect ratio */
+}
+
+header .hf {
+  float: right;
+  margin: 1.5%;
+}
+
+header .hi {
+  background-color: #333;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  transition-duration: 0.5s;
+  padding: 8px 20px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 1%;
+}
+
+header .hi:hover {
+  background-color: rgb(80, 78, 172); /* Updated hover color */
+}
+
+table {
+  width: 100%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#myTable th,
+#myTable td {
+  vertical-align: top;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.table-btn {
+  background-color: rgb(80, 78, 172);
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table-btn:hover {
+  background-color: rgb(80, 78, 172);
+}
+
+.button {
+  background-color: #333;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  transition-duration: 0.5s;
+  padding: 8px 20px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.cbtn {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  transition-duration: 0.5s;
+  padding: 8px 20px;
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+}
+
+.cbtn:hover {
+  background-color: #ddd;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+  background-color: rgb(80, 78, 172); /* Footer background color */
+  color: #fff;
+  padding: 10px 0;
+}
+
+#login{
+  text-align: center;
+}
